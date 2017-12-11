@@ -1,12 +1,10 @@
 # JS Mocha Test
 
-``` Mocha & Chai Should
-
+```Mocha & Chai Should
 var assert = require("assert");
 var expect = require('chai').expect;
 var should = require('chai').should();
 var $ = require('jquery')
-
 
 describe("Array", function() {
   describe("#indexOf()", function() {
@@ -67,7 +65,7 @@ describe('Test Instanceof', () => {
 })
 
 describe('Test Array have Length', () => {
-  describe('#ArrayLength()', () => { 
+  describe('#ArrayLength()', () => {
     it('Any Array should have length', () => {
       let arr = [1, 2, 3, 4]
       arr.should.have.lengthOf(4)
@@ -76,8 +74,8 @@ describe('Test Array have Length', () => {
 })
 ```
 
-
 # package.json
+
 ```
 "scripts": {
     "test": "mocha tests/",
