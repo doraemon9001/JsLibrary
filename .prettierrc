@@ -1,6 +1,6 @@
 # Prettierrc Setting For React
 
-```
+``` Prettierrc
 {
   "printWidth": 80,
   "tabWidth": 2,
@@ -21,4 +21,5 @@
     }
   ]
 }
+
 ```
