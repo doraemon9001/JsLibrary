@@ -1,6 +1,6 @@
 # Prettierrc Setting For React
 
-``` React Project
+```
 {
   "printWidth": 80,
   "tabWidth": 2,
