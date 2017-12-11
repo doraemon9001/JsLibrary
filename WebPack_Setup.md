@@ -1,5 +1,5 @@
 # Webpeck.config
-
+```
 const path = require('path');
 const webpack = require('webpack');
 
@@ -32,8 +32,10 @@ module.exports = {
         })
     ]
 }
+```
 
 # package.json
+```
 "scripts": {
     "test": "mocha tests/ajaxTest.js",
     "time": "node src/testJsonDate.js"
@@ -43,3 +45,4 @@ module.exports = {
     "jquery": "^3.2.1",
     "mocha": "^3.5.3"
 }
+```
