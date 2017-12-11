@@ -1,4 +1,6 @@
-``` Moch & Chai Should
+JS Mocha Test
+
+``` Mocha & Chai Should
 
 var assert = require("assert");
 var expect = require('chai').expect;
