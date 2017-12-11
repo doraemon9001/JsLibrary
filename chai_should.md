@@ -80,7 +80,7 @@ describe('Test Array have Length', () => {
 # package.json
 ```
 "scripts": {
-    "test": "mocha tests/ajaxTest.js",
+    "test": "mocha tests/",
     "time": "node src/testJsonDate.js"
 },
 "devDependencies": {
